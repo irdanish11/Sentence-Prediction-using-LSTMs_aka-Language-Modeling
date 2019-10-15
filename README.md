@@ -30,11 +30,12 @@ To re-train the model, run the ```model.py``` file and fit the model.
 To test the model we have to situations either we can generate only described number of words or we can also generate multiple sentences as suggestions. To generate words run ```word_pred.py``` and to generate multiple sentences run ```beam_search_beta.py```.
 
 ## Acknowledgements
-This project is highly based on the following [blog post](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) 
-Additional Readings: [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
-[A Brief Summary of Maths Behind RNN ](https://medium.com/towards-artificial-intelligence/a-brief-summary-of-maths-behind-rnn-recurrent-neural-networks-b71bbc183ff)
-[How many LSTM cells should I use?
+* This project is highly based on the following [blog post](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) 
+Additional Readings: 
+* [The Unreasonable Effectiveness of Recurrent Neural Networks](http://karpathy.github.io/2015/05/21/rnn-effectiveness/)
+* [A Brief Summary of Maths Behind RNN ](https://medium.com/towards-artificial-intelligence/a-brief-summary-of-maths-behind-rnn-recurrent-neural-networks-b71bbc183ff)
+* [How many LSTM cells should I use?
 ](https://datascience.stackexchange.com/questions/16350/how-many-lstm-cells-should-i-use/18049)
-[What's the difference between a bidirectional LSTM and an LSTM?
+* [What's the difference between a bidirectional LSTM and an LSTM?
 ](https://stackoverflow.com/questions/43035827/whats-the-difference-between-a-bidirectional-lstm-and-an-lstm)
-[An Introduction to Dropout for Regularizing Deep Neural Networks](https://medium.com/towards-artificial-intelligence/an-introduction-to-dropout-for-regularizing-deep-neural-networks-4e0826c10395)
+* [An Introduction to Dropout for Regularizing Deep Neural Networks](https://medium.com/towards-artificial-intelligence/an-introduction-to-dropout-for-regularizing-deep-neural-networks-4e0826c10395)
