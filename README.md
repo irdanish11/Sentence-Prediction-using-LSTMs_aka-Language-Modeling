@@ -3,7 +3,7 @@ LSTM text generation by word. Used to generate multiple sentence suggestions bas
 For more information about the project details, see [this blog post]() associated with this project.
 
 ## Responses: Generating 1 senetnce only i.e generating the described number of words
-```bash
+```
 Input: hydrant requires repair
 Output: hydrant requires repair is not working
 
