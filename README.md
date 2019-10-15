@@ -19,7 +19,46 @@ Output: machine is leaking and needs to be replaced
 Input: modus to install
 Output: modus to install and integrate not wifi
 ```
+## Responses: Generating multiple senetnces as suggestions.
+```
+Input: please fix the
+Output:
+        please fix the door in the
+        please fix the door is not
+        please fix the issue and connections
+        please fix the door is blocked
+        please fix the door is broken
 
+Input: mens bathroom door
+Output:
+        mens bathroom door is not working
+        mens bathroom door is broken and
+        mens bathroom door is broken in
+        mens bathroom door is broken please
+
+Input: please fix the light
+Output:
+        please fix the light bulb in the
+        please fix the light out in the
+        please fix the light out at judges
+        please fix the light out at level
+        please fix the light out in chambers
+
+Input: tap in bathroom
+Output:
+        tap in bathroom is not working
+        tap in bathroom is leaking and
+        tap in bathroom is leaking in
+        tap in bathroom is leaking at
+
+Input: drainage pipe is leaking
+Output:
+        drainage pipe is leaking and needs to
+        drainage pipe is leaking and needs replacing
+        drainage pipe is leaking at female toilets
+        drainage pipe is leaking and needs repairing
+        drainage pipe is leaking in the mens
+```
 ## Installation Dependencies
 
 * Python 3.7
