@@ -1,0 +1,14 @@
+Input: hydrant requires repair
+Output: hydrant requires repair is not working
+
+Input: describe the problem
+Output: describe the problem please attend to
+
+Input: door and window
+Output: door and window in the kitchen is not working in the
+
+Input: machine is leaking
+Output: machine is leaking and needs to be replaced
+
+Input: modus to install
+Output: modus to install and integrate not wifi
