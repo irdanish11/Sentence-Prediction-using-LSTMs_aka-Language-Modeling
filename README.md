@@ -1,6 +1,6 @@
 # Sentence Prediction using LSTMs aka Language Modeling
 LSTM text generation by word. Used to generate multiple sentence suggestions based on the input words or a sentence.
-For more information about the project details, see [this blog post]() associated with this project.
+For more information about the project details, see [this blog post](https://medium.com/towards-artificial-intelligence/sentence-prediction-using-word-level-lstm-text-generator-language-modeling-using-rnn-a80c4cda5b40) associated with this project.
 
 ## Responses: Generating 1 senetnce only i.e generating the described number of words
 ```
