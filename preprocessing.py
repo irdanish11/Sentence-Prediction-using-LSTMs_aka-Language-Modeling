@@ -6,9 +6,7 @@ Created on Wed Sep 18 16:23:04 2019
 """
 
 import pandas as pd
-import numpy as np
 import re
-import regex
 import time
 
 #reading the data from csv
@@ -144,9 +142,6 @@ def write_txt(name, data):
         file1.writelines('\n') 
     file1.close() #to change file access modes
 
-# Reading text file
-#fl = open("EU-AU-Description-19-9-2019.txt","r+")  
-#clean_unique_data = fl.read().splitlines()
 
 
 

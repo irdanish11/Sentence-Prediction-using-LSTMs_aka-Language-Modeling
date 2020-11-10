@@ -53,6 +53,7 @@ beam_width = 3
 
 def get_prob(model, pad_encoded):
     prob = model.predict_proba(pad_encoded,verbose=0)
+    print(prob)
     max = 0
     max2 = 0
     max3 = 0
@@ -84,14 +85,14 @@ def itr_fn(itr, word,exp2, ind, words_prob):
     y=[]
     n = []
     for k in range(beam_width**exp2):
-            
+        print(k)
         n.append(k)
         output_text[ind][0] = output_text[ind][0] + ' ' + word[itr-1]
         sent_prob[ind].append(words_prob[itr-1])
         ind += 1     
         if exp2==0:
             break 
-    #print()
+    print('\n')
     y.append(n)
         #exp2 -= 1
     return y, ind
@@ -257,18 +258,18 @@ def gen_sentence_condProb(num_suggest_sent, return_list = False, return_df = Fal
 #dumy = sent_prob.pop(27)
 #df = gen_sentence_condProb(5)
    
-
-print('\n\n===>Enter --exit to exit from the program')
-while True:
-    input_text  = input('Enter string: ')
-    if input_text.lower() == '--exit':
-        break
-    else:
-        output_text = []
-        sent_prob = []
-        list_gen(input_text)
-        main_itr()
-        dumy = output_text.pop(27)
-        dumy = sent_prob.pop(27)
-        df = gen_sentence_condProb(5, return_df=True)
-    
+if __name__ == '__main__':
+    print('\n\n===>Enter --exit to exit from the program')
+    while True:
+        input_text  = input('Enter string: ')
+        if input_text.lower() == '--exit':
+            break
+        else:
+            output_text = []
+            sent_prob = []
+            list_gen(input_text)
+            main_itr()
+            dumy = output_text.pop(27)
+            dumy = sent_prob.pop(27)
+            df = gen_sentence_condProb(5, return_df=True)
+        

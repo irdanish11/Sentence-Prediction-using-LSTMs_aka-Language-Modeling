@@ -2,7 +2,7 @@
 """
 Created on Wed Sep 18 16:23:04 2019
 
-@author: danish
+@author: Danish
 """
 
 from keras.preprocessing.text import Tokenizer
@@ -10,10 +10,9 @@ import numpy as np
 from keras.utils import to_categorical
 from keras.models import Sequential
 from keras.layers import Dense, LSTM, Embedding
-from pickle import dump,load
 from keras.callbacks import ModelCheckpoint
 from keras import optimizers
-from keras.models import load_model
+from pickle import dump
 
 
 
@@ -22,7 +21,7 @@ def read_file(filepath):
 		str_text = f.read()
 	return str_text
 
-text = read_file('EU-AU-Description-19-9-2019_qtr1.txt')
+text = read_file('processed_sentences.txt')
 tokens = text.split(" ")
 tokens.pop(0)
 
